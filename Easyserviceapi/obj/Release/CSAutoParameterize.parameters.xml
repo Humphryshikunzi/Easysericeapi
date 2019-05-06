@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="EasyserviceapiContext-Web.config Connection String" description="EasyserviceapiContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:humphryshikunzi.database.windows.net,1433;&#xD;&#xA;         Initial Catalog=humphryshikunzi;Persist Security Info=False;User ID=humphryshikunzi;&#xD;&#xA;         Password=2288shiks.;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\user\\Desktop\\Programming\\4\.Platforms\\4\.Websites\\Easyserviceapi\\Easyserviceapi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EasyserviceapiContext']/@connectionString" />
+  </parameter>
+  <parameter name="EasyserviceapiContext_DatabasePublish-Web.config Connection String" description="EasyserviceapiContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="EasyserviceapiContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\user\\Desktop\\Programming\\4\.Platforms\\4\.Websites\\Easyserviceapi\\Easyserviceapi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EasyserviceapiContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
